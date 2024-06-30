@@ -1,8 +1,6 @@
 
-
 import 'package:task_clean_arc/movies/domain/entities/now_playing_movies_entity.dart';
-
-import '../repositories/base_movie_repository.dart';
+import 'package:task_clean_arc/movies/domain/repositories/base_movie_repository.dart';
 
 class NowPlayingMoviesUseCase {
   final BaseMoviesRepository baseMoviesRepository;
